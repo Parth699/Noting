@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    li{
+        font-size: 1.1rem;
+        list-style: none;
+        margin: 0.5rem 0;
+
+        a{
+            text-decoration: none;
+        }
+    }
+}

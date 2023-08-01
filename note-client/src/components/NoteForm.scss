@@ -1,0 +1,33 @@
+.app__newnote{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    form{
+        width: 95%;
+        height: 70%;
+
+        textarea{
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            outline: none;
+        }
+        button{
+            color: aliceblue;
+            background-color: darkblue;
+            font-weight: 700;
+
+            padding: 1rem 2rem;
+            margin: 1rem 0 0;
+            border-radius: 5px;
+            outline: none;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+.app__note{
+    width: 80%;
+    // width: 800px;
+    margin: 0 auto;
+}
+.app__note-info{
+    min-width: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: .6rem;
+}
+.app__note-img{
+    margin-right: 1rem;
+}
+.app__note-img img{
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+    // border-radius: 50%;
+    border-radius: 3px;
+}
+.app__note-author{
+    margin-right: 1rem;
+}
+.app__note-favourites{
+    margin-right: 1rem;
+    margin-left: auto;
+}
+.app__note-favourite-btn{
+    width: 22px;
+    height: 22px;
+    object-position: center;
+    cursor: pointer;
+}

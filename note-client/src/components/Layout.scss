@@ -1,0 +1,33 @@
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+
+    nav{
+        width: 20%;
+        height: 100%;
+        display: flex;
+
+        background-color: rgb(251, 237, 237);
+        padding: 0 1rem;
+        z-index: 5; 
+    }
+    main{
+        // flex: 1;
+        width: 80%;
+        height: 100%;
+        overflow-y: scroll;
+        padding:1rem 1rem 0;
+
+        -ms-overflow-style: none;
+        scrollbar-width: 0px;
+
+    }
+    main::-webkit-scrollbar{
+        display: none;
+    }
+}
